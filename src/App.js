@@ -1,24 +1,25 @@
-import logo from './platzi.webp';
-import './App.css';
+
+
+import React from 'react';
+
+import { TodoProvider } from './TodoContext/TodoContext';
+
+import { AppUI } from './AppUI/AppUI';
+
+/* const taskItems = [
+  {text:"Aprender React",completed:true},
+  {text:"Conseguir trabajo",completed:false},
+  {text:"Decir PLATZI SE PAGA SOLO",completed:false}
+] */
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edita el archivo <code>src/App.js</code> y guarda para recargar.
-        </p>
-        <a
-          className="App-link"
-          href="https://platzi.com/reactjs"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    /* <div className="App"> */
+    <TodoProvider>
+      <AppUI />
+    </TodoProvider>
+    /*</div>*/
   );
 }
 

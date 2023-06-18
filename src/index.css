@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-educacion-escolar-tarea-blanco-espacio-copia_24837-92.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 62.5%;
+  font-family: 'Gemunu Libre', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root{
+  padding: 0 12px;
+}
+
+#modalDiv{
+  position: relative;
 }

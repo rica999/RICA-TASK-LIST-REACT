@@ -1,0 +1,30 @@
+.loading-container-task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.loading-container-task .loading-task{
+    background-color: gray;
+    border-radius: 20px;
+    width: 500px;
+    min-width: 500px;
+    max-width: 500px;
+    height: 75px;
+    min-height: 75px;
+    max-height: 75px;
+    animation: loading-skeleton infinite 1.5s;
+}
+
+@keyframes loading-skeleton {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

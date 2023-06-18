@@ -1,0 +1,19 @@
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+    margin:0;
+    padding: 48px 24px;
+    text-align:center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+@media (max-width:400px){
+    h1{
+        font-size: 2rem;
+    }
+}
