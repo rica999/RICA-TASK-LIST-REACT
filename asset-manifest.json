@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RICATASK-LIST-REACT/static/css/main.462538fa.css",
+    "main.js": "/RICATASK-LIST-REACT/static/js/main.e64e15d5.js",
+    "index.html": "/RICATASK-LIST-REACT/index.html",
+    "static/media/close.svg": "/RICATASK-LIST-REACT/static/media/close.01592bfa7bfc028aa014c48736db4e64.svg",
+    "static/media/check.svg": "/RICATASK-LIST-REACT/static/media/check.57e9c3d9891a0d7e5ea6a299f11a3da2.svg",
+    "main.462538fa.css.map": "/RICATASK-LIST-REACT/static/css/main.462538fa.css.map",
+    "main.e64e15d5.js.map": "/RICATASK-LIST-REACT/static/js/main.e64e15d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.462538fa.css",
+    "static/js/main.e64e15d5.js"
+  ]
+}
